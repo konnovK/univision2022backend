@@ -1,0 +1,6 @@
+[Service]
+ExecStart=/home/www/univision2022backend/start.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
