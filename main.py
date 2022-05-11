@@ -1,3 +1,4 @@
+import os
 from config import Config
 from database import Database
 from utils import Utils
@@ -13,7 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 db = Database(base_path="./data/base.json")
-config = Config(password="qwerty")
+config = Config(password=os.getenv("UNI_PASSWORD", "qwerty"))
 
 
 app = FastAPI()
