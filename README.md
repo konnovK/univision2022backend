@@ -4,7 +4,7 @@ Python 3.10
 
 FastAPI
 
-Swagger API: `your-domain-name:8000/docs`
+Swagger API: `/docs`
 
 ## Полуфинал
 
